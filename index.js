@@ -7,6 +7,8 @@ async function getWeatherInfo(){
     let searchedCity = rawSearchedCity.toLowerCase().replaceAll(' ', '-');
     let requestUrl = `${requestUrlBase}${searchedCity}`
     console.log(requestUrl)
+    console.log('branch test')
+
 
     let response = await fetch(requestUrl, {
             mode: 'no-cors',
@@ -19,5 +21,4 @@ async function getWeatherInfo(){
         });
 
     let cityInfo = await response.json();
-    console.log(cityInfo)
 }

@@ -1,0 +1,13 @@
+html, body {
+    background-color: #212529!important;
+}
+
+span, p, h1, h2, h3 {
+    color: #DEE2E6!important;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
